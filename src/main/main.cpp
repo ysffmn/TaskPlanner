@@ -1,6 +1,5 @@
-#include "taskplanner.hpp"
-
 #include <QApplication>
+#include "taskplanner.hpp"
 
 int main(int argc, char *argv[])
 {
