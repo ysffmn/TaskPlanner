@@ -1,7 +1,7 @@
 #include "controller.hpp"
 #include "../storage/istorage.hpp"
 
-controller::Controller::Controller():
+controller::Controller::Controller(QObject *parent):
   m_storage(nullptr),
   m_view(nullptr)
 {}
