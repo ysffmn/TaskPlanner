@@ -34,12 +34,10 @@ namespace controller
   private:
     bool checkReady() const;
     bool validateTask(const storage::Task &task) const;
-    void connectSignals();
     void refreshView();
 
     storage::IStorage *m_storage;
     view::IView *m_view;
-
     storage::Filter m_activeFilter;
     QVariant m_filterValue;
     storage::Criterion m_activeCriterion;
